@@ -1,3 +1,7 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .score {
     position: absolute;
     top: 10px;
@@ -13,14 +17,19 @@
 
 .content {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 70px 50px 0px 50px;
 }
 
 .start {
     font-size: 20px;
     padding: 15px 30px 15px 30px;
+}
+
+.btn {
     background-color: #008B8B;
 }
 
+.hide {
+    display: none;
+ }
 
